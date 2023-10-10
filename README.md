@@ -2,41 +2,55 @@
 undefined
 
 ## Table of contents 
-- Installation
-- Usage
-- Contributing 
-- Author
-- Technologies 
-- Questions
-- Preffered Contact  
+[Installation](#Installation)
+
+[Usage](#Usage)
+
+[Contributing](#Contributing)
+
+ [Author](#Author)
+
+[Technologies](#Technologies)
+
+[Questions](#Questions)
+
+[Preffered Contact](#Preffered Contact) 
 
 
 ## Installation
-```git clone
+git clone
 
 ## Usage
- ```node index.js 
- 
+node index.js
+
 ## Contributing
-undefined
+Me
 ## Description 
+
+GIVEN a readme genetator 
+
 IF you go to your terminal/bash window 
+
 THEN you go type in <node index.js> 
+
 WHEN you type in <node index.js>
+
 THEN you will be met with a series of prompts 
+
 WHEN you fill out the prompts 
+
 THEN you will see "Success!" and will have generated a README file
 
 ## Author
-RHETTROSEMAN
+RhettRoseman
 Rhett
 
 
 ## Technologies
-HTML,CSS,JavaScript,node.js,express.js,Web API,Server API,JSON
+HTML,CSS,JavaScript,node.js,express.js,python,Web API,Server API,JSON
 
 ## Questions 
-github.repo/githubusername
+github.com/RhettRoseman
 
 ## Preffered Method of contact 
 telekinesis
