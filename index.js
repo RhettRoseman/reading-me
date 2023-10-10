@@ -1,13 +1,27 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const html = ({name, stack, username, contact, repo,}) => 
-`"# Build CLI App Inquirer"
-${name};
+const html = ({name, stack, username, contact, repo, title, usage, contributor, download, tests}) => 
+`
+${title}
 
-## Description
+## Table of contents 
+- Installation
+- Usage
+- Contributing 
+- Author
+- Technologies 
+- Questions
+- Preffered Contact  
 
-Work with a partner to implement the following user story:
-* My name is ${name}   As a developer, I want to create a command-line application that takes in input from the user and does something with it.
+
+## Installation
+''' ${download}
+
+## Usage
+''' ${usage}
+
+## Contributing
+${contributor}
 ## Description 
 IF you go to your terminal/bash window 
 THEN you go type in <node index.js> 
@@ -18,16 +32,20 @@ THEN you will see "Success!" and will have generated a README file
 
 ## Author
 ${username}
+${name}
+
+
 ## Technologies
-node.js
-JSON 
 ${stack}
 
-## Links 
+## Questions 
 ${repo}
 
 ## Preffered Method of contact 
-${contact} 
+${contact}
+
+## Tests
+${tests}
 `
 inquirer
   .prompt([
@@ -37,10 +55,18 @@ inquirer
       message: 'What is your name?',
     },
     {
+      type: 'list;',
+      name: 'license',
+      message: 'Choose your license',
+      choices: ['Apache-2.0', 'MIT', 'Artistic-2.0', 'LGPL', 'ECL-2.0'],
+ 
+
+    },
+    {
       type: 'checkbox',
       message: 'What languages do you know?',
       name: 'stack',
-      choices: ['HTML', 'CSS', 'JavaScript', 'node.js', 'MySQL'],
+      choices: ['HTML', 'CSS', 'JavaScript', 'node.js', 'express.js', 'python', 'Web API', 'Server API', 'MySQL', 'JSON'],
     },
     {
       type: 'list',
@@ -59,6 +85,18 @@ inquirer
   message: "What is the name of your GitHub repo?",
   name: 'repo',
 },
+{
+  type: 'list',
+  message: 'How do you download this project?',
+  name: 'download',
+  choices: ['node index.js', 'npm install node', 'git clone'],
+},
+{
+  type: 'input',
+  message: 'How do I use this?',
+  name: 'usage',
+},
+
 
   ])
   .then((answers) => {
