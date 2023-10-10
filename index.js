@@ -15,10 +15,10 @@ ${title}
 
 
 ## Installation
-''' ${download}
+'''${download}
 
 ## Usage
-''' ${usage}
+'''${usage}
 
 ## Contributing
 ${contributor}
