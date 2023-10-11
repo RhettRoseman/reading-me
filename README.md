@@ -1,5 +1,5 @@
 
-Readme-Generator
+README Generator 
 
 ## Table of contents 
 [Installation](#Installation)
@@ -14,10 +14,7 @@ Readme-Generator
 
 [Questions](#Questions)
 
-[Preffered Contact](#PrefferedContact) 
 
-## ScreenRecording
-https://www.loom.com/share/283d5e5e0bc3471b8e69061c3713522a?sid=6cf309cc-5eda-4fed-b314-ff68b74679f6
 
 
 ## Installation
@@ -46,18 +43,18 @@ WHEN you fill out the prompts
 THEN you will see "Success!" and will have generated a README file
 
 ## Author
-RhettRoseman
+RHETTROSEMAN
 Rhett
 
 
 ## Technologies
-HTML,CSS,JavaScript,node.js,express.js,Web API,Server API,MySQL,JSON
+HTML,CSS,JavaScript,node.js,express.js,python,Web API,Server API,MySQL,JSON
 
 ## Questions 
-github.com/RhettRoseman
+gihub.com/RHETTROSEMAN
 
 ## Preffered Method of contact 
-telekinesis
+email
 
 ## Tests
 undefined
