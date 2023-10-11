@@ -1,5 +1,5 @@
 
-undefined
+Readme-Generator
 
 ## Table of contents 
 [Installation](#Installation)
@@ -23,8 +23,9 @@ git clone
 ## Usage
 node index.js
 
-## Contributing
-Me
+## Contributings
+ME
+
 ## Description 
 
 GIVEN a readme genetator 
@@ -47,7 +48,7 @@ Rhett
 
 
 ## Technologies
-HTML,CSS,JavaScript,node.js,express.js,python,Web API,Server API,JSON
+HTML,CSS,JavaScript,node.js,express.js,Web API,Server API,MySQL,JSON
 
 ## Questions 
 github.com/RhettRoseman

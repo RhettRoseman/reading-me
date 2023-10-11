@@ -1,7 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const html = ({ name, stack, username, contact, repo, title, usage, contributor, download, tests }) =>
-  `
+ 
+`
 ${title}
 
 ## Table of contents 
@@ -28,6 +29,7 @@ ${usage}
 
 ## Contributings
 ${contributor}
+
 ## Description 
 
 GIVEN a readme genetator 
