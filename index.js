@@ -17,6 +17,13 @@ const html = ({ name, stack, username, contact, repo, title, usage, contributor,
 
 [Questions](#Questions)
 
+<<<<<<< HEAD
+=======
+[Screenshots](#Screenshots)
+
+
+
+>>>>>>> refs/remotes/origin/main
 ## Installation
 ${download}
 
