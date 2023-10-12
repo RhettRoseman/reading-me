@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const html = ({ name, stack, username, contact, repo, title, usage, contributor, download, tests }) =>
-  `
+`
 # ${title}
 
 ## Table of contents 
@@ -16,9 +16,6 @@ const html = ({ name, stack, username, contact, repo, title, usage, contributor,
 [Technologies](#Technologies)
 
 [Questions](#Questions)
-
-
-
 
 ## Installation
 ${download}
@@ -51,7 +48,7 @@ ${name}
 
 
 ## Technologies
-${stack}
+- ${stack}
 
 ## Questions 
 ${repo}
@@ -140,4 +137,4 @@ inquirer
 
     )
   });
-// "${answers.username.toLowerCase().split(' ').join('')
+// "${answers.username.toLowerCase().split(' ').join('') ${}
