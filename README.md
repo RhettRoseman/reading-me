@@ -46,6 +46,8 @@ THEN you will see "Success!" and will have generated a README file
 RhettRoseman
 Rhett
 
+## Screenrecording
+https://www.loom.com/share/283d5e5e0bc3471b8e69061c3713522a
 
 ## Technologies
 node.js,express.js,JSON
