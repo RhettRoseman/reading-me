@@ -1,5 +1,5 @@
 
-Readme-Generator
+# README.md Generator
 
 ## Table of contents 
 [Installation](#Installation)
@@ -14,7 +14,7 @@ Readme-Generator
 
 [Questions](#Questions)
 
-[Preffered Contact](#Preffered Contact) 
+
 
 
 ## Installation
@@ -24,7 +24,7 @@ git clone
 node index.js
 
 ## Contributings
-ME
+N/A
 
 ## Description 
 
@@ -46,12 +46,14 @@ THEN you will see "Success!" and will have generated a README file
 RhettRoseman
 Rhett
 
+## Screenrecording
+https://www.loom.com/share/283d5e5e0bc3471b8e69061c3713522a
 
 ## Technologies
-HTML,CSS,JavaScript,node.js,express.js,Web API,Server API,MySQL,JSON
+node.js,express.js,JSON
 
 ## Questions 
-github.com/RhettRoseman
+reading-me
 
 ## Preffered Method of contact 
 telekinesis

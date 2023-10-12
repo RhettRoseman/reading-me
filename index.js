@@ -1,9 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const html = ({ name, stack, username, contact, repo, title, usage, contributor, download, tests }) =>
- 
-`
-${title}
+  `
+# ${title}
 
 ## Table of contents 
 [Installation](#Installation)
@@ -18,7 +17,7 @@ ${title}
 
 [Questions](#Questions)
 
-[Preffered Contact](#Preffered Contact) 
+
 
 
 ## Installation
