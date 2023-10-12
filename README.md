@@ -1,6 +1,9 @@
 
 # README.md Generator
 
+# HOW TO USE
+npm install inquirer
+
 ## Table of contents 
 [Installation](#Installation)
 
