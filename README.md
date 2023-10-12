@@ -1,5 +1,5 @@
 
-README Generator 
+# README.md Generator
 
 ## Table of contents 
 [Installation](#Installation)
@@ -24,7 +24,7 @@ git clone
 node index.js
 
 ## Contributings
-ME
+N/A
 
 ## Description 
 
@@ -43,18 +43,18 @@ WHEN you fill out the prompts
 THEN you will see "Success!" and will have generated a README file
 
 ## Author
-RHETTROSEMAN
+RhettRoseman
 Rhett
 
 
 ## Technologies
-HTML,CSS,JavaScript,node.js,express.js,python,Web API,Server API,MySQL,JSON
+node.js,express.js,JSON
 
 ## Questions 
-gihub.com/RHETTROSEMAN
+reading-me
 
 ## Preffered Method of contact 
-email
+telekinesis
 
 ## Tests
 undefined
